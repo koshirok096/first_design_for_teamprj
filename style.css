@@ -1,0 +1,185 @@
+body{
+    background-color: gainsboro;
+}
+
+.home-flmain{
+    color: white;
+    height: 24vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 100s ease infinite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* .txtgradient{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: txtgradient 75s ease infinite;    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
+@keyframes txtgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+.mainwrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.accountsecwrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.accountsec{
+    width: 90%;
+    height: 82vh;
+    background: white;
+    position: sticky;
+    top: 15vh;
+    left: 0;
+    margin: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account_circle{
+    background-color: gainsboro;
+    height: 130px;
+    width: 130px;
+    border: 3px rgba(99, 99, 99, 0.2) solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: gray;
+}
+
+.playlistwrapper{
+    background-image: url(img/tyson-moultrie-BQTHOGNHo08-unsplash-min.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.94;
+    width: 70%;
+    height: 100%;
+    }
+
+    .latest_subtxt{
+        color: white;
+    }
+
+    .playlist_chile{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: white;;
+    }
+
+.playlistwrapper h2 span i{
+    font-size: 1.2rem;
+}
+
+#header_vrmargin{
+    margin: 0 1rem;
+}
+
+.navbar-nav li a{
+    margin-left: .7rem;
+}
+
+.navbar-nav .show a{
+    margin: 0;
+    text-align: center;
+}
+.navbar-nav .show li{
+    text-align: center;
+}
+
+
+.table-custom-spacing{
+    border-collapse: separate;
+    border-spacing: 0 1em;    
+    table-layout: fixed;
+}
+
+.table-custom-spacing tr{
+    vertical-align: middle;
+}
+
+.table-custom-spacing th:first-child{
+    width: 2.5rem;
+}
+.table-custom-spacing th:nth-child(2){
+    width: 150px;
+}
+
+.table-custom-spacing td:first-of-type{
+    text-align: center;
+}
+
+
+.table-custom-spacing td:first-of-type img{
+        background-color: rgb(212, 212, 212);
+        width: 70px; height: 120px;
+        object-fit: contain;
+        /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+
+.table-custom-spacing td:nth-child(6){
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.table-custom-spacing td:last-child{
+    border-radius: 1em;
+    color:blue;
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid powderblue;
+}
+
+.rating_box{
+}
+
+@media only screen and (max-width: 991px) {
+
+
+    #header_vrmargin{
+        display: none;
+    }
+    
+
+}
+
