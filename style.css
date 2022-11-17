@@ -173,13 +173,20 @@ body{
 .rating_box{
 }
 
-@media only screen and (max-width: 991px) {
+.sadImage{
+    background:url(https://source.unsplash.com/random/?sad,cry);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
+@media only screen and (max-width: 991px) {
 
     #header_vrmargin{
         display: none;
     }
-    
 
 }
 
