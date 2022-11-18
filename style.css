@@ -1,3 +1,30 @@
+/* Signup */
+
+.signin_rightwrapper{
+    color: white;
+    height: auto;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: signingradient 10s ease infinite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: end;
+}
+@keyframes signingradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Dashboard */
+
 body{
     background-color: gainsboro;
 }
@@ -174,13 +201,23 @@ body{
 }
 
 .sadImage{
-    background:url(https://source.unsplash.com/random/?sad,cry);
+    background:url(https://images.unsplash.com/photo-1575914802699-2f46321fac4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFuZ3J5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
     width: 100%;
     height: 30vh;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
+
+.happyImage{
+    background:url(https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAyfHxmdW5ueXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    width: 100%;
+    height: 30vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+}
+
 
 @media only screen and (max-width: 991px) {
 
